@@ -1,0 +1,19 @@
+{
+  "name": "ai-placement-predictor",
+  "version": "1.0.0",
+  "description": "AI-powered placement prediction system with React frontend and Node.js backend",
+  "scripts": {
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "build:frontend": "cd frontend && npm run build",
+    "train:model": "cd ml-model && python train_model.py"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "keywords": ["ai", "placement", "prediction", "machine-learning", "react", "express"],
+  "author": "",
+  "license": "ISC"
+}

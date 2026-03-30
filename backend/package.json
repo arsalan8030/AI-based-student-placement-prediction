@@ -1,0 +1,23 @@
+{
+  "name": "ai-placement-predictor-backend",
+  "version": "1.0.0",
+  "description": "Backend API for AI-powered placement prediction system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["ai", "placement", "prediction", "machine-learning", "express"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
